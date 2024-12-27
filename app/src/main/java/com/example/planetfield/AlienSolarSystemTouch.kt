@@ -62,7 +62,7 @@ class AlienSolarSystemTouch : View {
         //DB
         planetDGW = DGW(alienSolarSystemCtx,"planets", null, 1)
         planetDGW.openDB()
-//        planetDGW.insertPlanets()
+        planetDGW.insertPlanets()
 
         //Planets
         allPlanets = planetDGW.getAllPlanets()

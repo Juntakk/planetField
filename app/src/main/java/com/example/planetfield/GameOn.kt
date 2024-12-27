@@ -11,7 +11,7 @@ class GameOn : AppCompatActivity() {
         alienSolarSystemTouch = AlienSolarSystemTouch(this)
         alienSolarSystemMove = AlienSolarSystemMove(this)
 
-//        setContentView(alienSolarSystemTouch)
-        setContentView(alienSolarSystemMove)
+        setContentView(alienSolarSystemTouch)
+        //setContentView(alienSolarSystemMove)
     }
 }
